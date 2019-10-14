@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.7" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="300.0" prefWidth="400.0" stylesheets="@divider.css" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+            <Label layoutX="105.0" layoutY="92.0" text="냉장고를 열어 보세요" textAlignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+            <Button fx:id="okay" layoutX="305.0" layoutY="31.0" mnemonicParsing="false" text="확인" />
+         </children></AnchorPane>
+  </items>
+</SplitPane>
